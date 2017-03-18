@@ -3,6 +3,13 @@ body{
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: normal;
+
+}
+
 header{
   background-color: #673AB7;
   height: 600px;
@@ -22,17 +29,17 @@ header{
 
 
 .logo {
-  text-align: center;
+  padding-left:200px;
   margin-top: 0;
   margin-bottom:0;
-  flex: 1;
+  flex: 2;
 }
 
 .logo a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  padding: 14px 14px;
+  padding: 15px 14px;
 }
 
 .logo a:hover{
@@ -42,7 +49,7 @@ header{
 
 .navgation{
   color: #fff;
-  flex: 1;
+  flex: 3;
 }
 
 .navgation a {
@@ -50,7 +57,7 @@ header{
   text-decoration: none;
   color:#fff;
   margin-left: 2px;
-  padding: 14px 14px;
+  padding: 15px 14px;
 }
 
 .navgation a:hover{
@@ -107,4 +114,282 @@ header{
 
 .imgs {
   flex: 1;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.users h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: #616161;
+}
+
+.awards {
+  margin-bottom: 5px;
+}
+.saying  {
+  text-decoration: none;
+  color: #33691E;
+}
+
+.awards{
+  flex: 1;
+}
+
+.container {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.search-desc{
+  flex: 1;
+}
+
+.search-desc h3 {
+  font-size: 28px;
+  font-style: normal;
+  color: #424242;
+}
+
+.search-desc p {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #757575;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #EEEEEE;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.search-img {
+  flex: 1;
+}
+
+.clipboard-img{
+   flex: 1;
+}
+
+.clipboard-desc{
+  flex: 1;
+  padding-left: 25px;
+}
+
+.clipboard-desc h3{
+  font-size: 28px;
+  font-style: normal;
+  color: #424242;
+}
+
+.clipboard-desc p {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #757575;
+}
+
+.workflow-desc{
+  flex: 1;
+}
+
+.workflow-desc h3{
+  font-size: 28px;
+  font-style: normal;
+  color: #424242;
+}
+
+.workflow-desc p {
+  line-height: 1.8;
+  font-size: 15px;
+  color: #757575;
+}
+
+.workflow-img{
+  padding-left:25px;
+}
+
+.control-desc{
+  padding-left:30px;
+  flex:1
+}
+
+.control-desc h3{
+  font-size: 28px;
+  font-weight: normal;
+  color: #424242;
+}
+
+.control-desc p{
+  line-height: 1.8;
+  font-size: 15px;
+  color: #757575;
+}
+
+.download {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E0E0E0;
+  padding-bottom: 40px;
+}
+
+.download h1{
+  margin-top:60px;
+  margin-bottom: 10px;
+}
+
+.download p {
+  width: 50%;
+}
+
+.card-grp{
+  margin-top: 30px;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.card{
+  width: 32%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card p{
+  flex: 1;
+  width:90%;
+  text-align:center;
+}
+
+.card a{
+  text-decoration: none;
+  color:#fff;
+  margin-bottom: 15px;
+}
+
+.card h1{
+  margin-top:20px;
+  margin-bottom: 10px;
+
+}
+
+.button{
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 15px 2px;
+   cursor: pointer;
+   border-radius: 2px;
+}
+
+
+.btn3 {
+  padding: 15px 40px;
+  background-color: #4A148C;
+}
+
+.btn4{
+  padding: 15px 60px;
+  background-color: #00ACC1;
+}
+
+.btn5 {
+  padding: 15px 60px;
+  background-color: #006064;
+}
+
+.version{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.version p {
+  width: 100%;
+}
+
+footer{
+  background-color: #212121;
+}
+
+.footer-container{
+  padding-top:50px;
+  padding-bottom:50px;
+  width:70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items{
+  width: 15%;
+  flex:1;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.items ul{
+  padding-left:0;
+}
+
+.items h3{
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.items ul>li{
+  font-size: 13px;
+  list-style: none;
+  line-height: 1.8;
+}
+
+.news{
+  flex:2;
+}
+
+.news p{
+  color:#fff;
+  font-size: 12px;
+}
+
+.forms {
+  display: flex;
+}
+
+input[type=text]{
+  box-sizing: border-box;
+  padding:10px 20px 10px 20px;
+}
+
+.forms button{
+  background-color:#00BFA5;
+  padding-left:15px;
+  padding-right:15px;
+  border:none;
 }
