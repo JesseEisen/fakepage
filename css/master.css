@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #673AB7;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  background-color: #512DA8;
+  color: #fff;
+}
+
+
+.logo {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom:0;
+  flex: 1;
+}
+
+.logo a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 14px;
+}
+
+.logo a:hover{
+  background-color: #000;
+  color:#fff;
+}
+
+.navgation{
+  color: #fff;
+  flex: 1;
+}
+
+.navgation a {
+  display: inline-block;
+  text-decoration: none;
+  color:#fff;
+  margin-left: 2px;
+  padding: 14px 14px;
+}
+
+.navgation a:hover{
+  background-color: #000;
+  color:#fff;
+}
+
+.specify{
+  flex:10;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.pargraph {
+  margin-left: 200px;
+  margin-right: 50px;
+  flex:1;
+}
+
+.Name {
+  margin-top: 2px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.intro{
+  width:500px;
+  color: #fff;
+}
+
+.btns{
+  margin-top: 50px;
+
+}
+
+.btns a{
+  text-decoration: none;
+  padding: 12px 12px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.btn1{
+  background-color:#fff;
+  color: #0288D1;
+}
+
+.btn2{
+  background-color: #26A69A;
+  color: #fff;
+}
+
+.imgs {
+  flex: 1;
+}

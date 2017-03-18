@@ -1,0 +1,166 @@
+body{
+	font-family: 'Roboto',sans-serif;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	background-color: #009688;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	box-shadow: 0 4px 8px 5px rgba(0,0,0,0.2);
+}
+
+
+.logo {
+	font-family: 'Roboto',sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+	padding:50px 60px 50px 240px;
+	flex:2
+}
+
+.guide {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	flex: 2;
+}
+
+.items{
+	text-decoration: none;
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 300;
+	padding: 10px;
+	color: #fff;
+}
+
+.guide a:hover {
+	border-bottom: 2px solid #FF7043;
+}
+
+.main-container {
+	max-width: 900px;
+	margin: auto;
+	padding-top: 50px;
+	flex-direction: column;
+	display: flex;
+}
+
+.contents{
+	flex: 1;
+}
+
+.contents h2 {
+	font-family: "Roboto",sans-serif;
+	font-weight: 300;
+	color: #E64A19;
+
+}
+
+.contents p {
+	font-family:"Segoe UI","Oxygen",Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;;
+	line-height: 1.5;
+	font-size: 16px;
+	word-spacing: 1px;
+}
+
+.bq{
+	border-left: 4px solid #4CAF50;
+	background-color: #F5F5F5;
+	margin:0;
+}
+
+.bq strong {
+	display: inline-block;
+	margin: 20px auto 1px 20px;
+	padding: 5px;
+}
+
+.bq p {
+	margin: 1px auto 10px 20px;
+	padding: 10px;
+}
+
+.lists {
+	margin: 10px;
+}
+
+.list-items {
+	line-height: 1.8;
+
+}
+
+.codes {
+
+	background-color: #FFE082;
+	flex:1;
+}
+
+.clang {
+	margin-left: 30px;;
+}
+
+.clang code{
+	font-family: "Segoe UI","Oxygen",Tahoma, Arial,sans-serif;
+	line-height: 1.5;
+}
+
+
+footer {
+	margin-top: 20px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #212121;
+}
+
+.container-foot {
+	justify-content: flex-start;
+	align-items: space-between;
+	display: flex;
+}
+
+.fguide {
+	flex: 1;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.fguide h3 {
+	text-align: center;
+	color: #616161;
+	flex: 1;
+}
+
+.last-foot {
+	margin-top:30px;
+	text-align: center;
+	color: #616161;
+	font-size: 14px;
+}
+
+.fguide a{
+	text-decoration: none;
+	color: #616161;
+}
+
+.fguide ul{
+	margin: auto;
+	flex:1;
+}
+
+.fguide li{
+	list-style: none;
+	font-size: 16px;
+	margin-top:8px;
+}
+
+.fguide a:hover{
+	color: #9E9E9E;
+}
