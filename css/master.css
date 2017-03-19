@@ -11,8 +11,8 @@ h3 {
 }
 
 header{
+  max-width: 100%;
   background-color: #673AB7;
-  height: 600px;
   display: flex;
   flex-direction: column;
 }
@@ -29,7 +29,7 @@ header{
 
 
 .logo {
-  padding-left:200px;
+  text-align: center;
   margin-top: 0;
   margin-bottom:0;
   flex: 2;
@@ -67,14 +67,18 @@ header{
 
 .specify{
   flex:10;
+  margin:auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items:center;
+  padding-top:50px;
+  padding-bottom: 50px;
 }
 
+
+
 .pargraph {
-  margin-left: 200px;
-  margin-right: 50px;
+
   flex:1;
 }
 
@@ -241,6 +245,7 @@ hr{
 
 .download {
   display:flex;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -258,15 +263,15 @@ hr{
 }
 
 .card-grp{
-  margin-top: 30px;
-  max-width: 70%;
+  width: 80%;
+  margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
 }
 
 .card{
-  width: 32%;
+  width: 30%;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -282,12 +287,14 @@ hr{
 }
 
 .card a{
+  flex: 1;
   text-decoration: none;
   color:#fff;
   margin-bottom: 15px;
 }
 
 .card h1{
+  flex:1
   margin-top:20px;
   margin-bottom: 10px;
 
@@ -340,8 +347,9 @@ footer{
   width:70%;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .items{
@@ -392,4 +400,87 @@ input[type=text]{
   padding-left:15px;
   padding-right:15px;
   border:none;
+}
+
+
+@media (max-width:900px){
+  .introduction{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+
+
+  .specify {
+    flex:8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgs{
+    order:1;
+  }
+
+  .pargraph{
+    order: 2;
+  }
+
+  .container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-desc{
+    order:2;
+  }
+
+  .search-img{
+    order:1;
+  }
+
+  .workflow-desc{
+    order:2;
+  }
+
+  .workflow-img{
+    order:1;
+  }
+
+  .card-grp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card{
+    width:80%;
+    flex-grow: 1;
+    display: flex;
+    margin-top:30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+
+  .forms{
+    margin:center;
+  }
 }
